@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lobster', cursive;
+  color: #F08080;
+  margin: 0 0 50px 0;
+}
+.header_title{
+  font-size: 48px;
+  margin: 0 0 40px 0;
+}
+.header_subTitle{
+  font-size: 30px;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+button{
+  font-family: 'PT Sans Narrow', sans-serif;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#todo_app{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+  padding: 15px 10px 50px 10px;
+  border-radius: 10px;
+}
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 20px 0;
+  flex-wrap: wrap;
+}
+.input_row{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px 0;
+}
+
+.enter_task{
+  height: 40px;
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.row button{
+  width: 20%;
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+}
+.add_task-btn{
+  background: #228B22;
+  color: #fff;
+}
+.del_all-btn{
+  background: #DC143C;
+  color: #fff;
+}
+.form_table{
+  width: 100%;
+}
+table{
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  border-collapse: collapse;
+} 
+thead {
+  font-family: 'Lobster', cursive;
+  color: #20B2AA;
+  padding: 10px;
+}
+thead tr{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+thead th{
+  padding: 20px;
+  width: 30%;
+}
+.task_row{
+   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+tbody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+tbody tr{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin: 0 0 10px 0;
+  align-items: center;
+}
+tbody td{
+  padding: 15px;
+  width: 30%;
+}
+tbody td:last-child{
+  display: flex;
+  justify-content: space-between;
+}
+
+.task_name{
+  width: 40%;
+}
+.delete, #task_check {
+  width: 45%;
+  height: 100%;
+  display: block;
+  font-size: 25px;
+  background: #DC143C;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+.complete, #task_check{
+  background-color: #3CB371;
+  color: #fff;
+}
+.actionTd{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 5px;
+}
+.toCurrent, .current-btn{
+  background: #7CFC00;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+.compl-btn{
+  background: #3CB371;
+  color: #fff;
+}
+.back-btn{
+  background: none;
+  font-size: 30px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
